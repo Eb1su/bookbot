@@ -17,7 +17,7 @@ def formatted_out(book_path, word_count, sorted_char):
     print(f"Found {word_count}")
     print("--------- Character Count -------")
     for entry in sorted_char:
-        if char.isalpha() == True:
+        if entry["char"].isalpha() == True:
             print(f"{entry["char"]}: {entry["num"]}")
     print("============= END ===============")
 
